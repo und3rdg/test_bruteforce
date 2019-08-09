@@ -1,0 +1,24 @@
+{
+  "name": "test_bruteforce",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.19.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha -w -R nyan"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/und3rdg/test_bruteforce.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/und3rdg/test_bruteforce/issues"
+  },
+  "homepage": "https://github.com/und3rdg/test_bruteforce#readme"
+}
