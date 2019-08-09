@@ -10,7 +10,7 @@ let code = "000"
 // convert code to number,
 // then add string "00" to number
 // and return only last 3 characters of string
-const next_code = code =>  ("00"+(+code+1)).slice(-3) // I will never do shortcut like that on production, but on simple, one use script or prototype... why not.
+const next_code = code =>  ("00"+(+code+1)).slice(-3) // I will never do shortcut like that on production, but on simple, one time use script or prototype... why not.
 
 
 // fetching data
