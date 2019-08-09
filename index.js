@@ -43,7 +43,7 @@ const check_code = code => {
 
 
 
-// checking string (optimisation)
+// (optimisation) checking string is cheaper that converting it to number and then `code >= 999`
 while(code !== "999") {
     check_code(code)
     code = next_code(code)
